@@ -1,0 +1,7 @@
+2, testable behavior:
+- Given a student ID and a grade, student with that ID should have that course grade
+
+3, exceptional: 
+- If given student ID not in the database, shoudl return an error code
+- If given an invalid grade, should return an error code
+- If given a course grade for a course the student has already taken, should override previous course grade.
